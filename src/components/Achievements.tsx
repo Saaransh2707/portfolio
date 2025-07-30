@@ -6,47 +6,31 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import spiderman from "../assets/spiderman.jpg"
-import sonic from "../assets/sonic.jpg"
-import gojo from "../assets/gojo.jpg"
+import C1 from "../assets/C-1.jpg"
+import C2 from "../assets/C-2.jpg"
+import C3 from "../assets/C-3.jpg"
 const Achievements = () => {
   const images = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      src: C1,
       alt: "Project Screenshot 1",
       title: "Dashboard Design"
     },
     {
       id: 2,
-      src: spiderman,
+      src: C2,
       alt: "Project Screenshot 2",
-      title: "Spiderman"
+      title: "C-1"
     },
     {
       id: 3,
-      src: gojo,
+      src: C3,
       alt: "Project Screenshot 3",
       title: "Gojo Saturo"
     },
-    {
-      id: 4,
-      src: sonic,
-      alt: "Project Screenshot 4",
-      title: "Sonic"
-    },
-    {
-      id: 5,
-      src: "https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=600&h=400&fit=crop",
-      alt: "Project Screenshot 5",
-      title: "API Documentation"
-    },
-    {
-      id: 6,
-      src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      alt: "Project Screenshot 6",
-      title: "Data Visualization"
-    }
+   
+    
   ];
 
   return (

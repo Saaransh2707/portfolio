@@ -59,7 +59,7 @@ const ThankYouPage = () => {
           className="text-center text-gray-600 dark:text-gray-400"
         >
           <p className="mb-2">Designed & Developed with ❤️ by @MohitSaini</p>
-          <p>&copy; 2024 John Doe. All rights reserved.</p>
+          <p>&copy; 2024 Mohit Saini. All rights reserved.</p>
           <p className="mt-4 text-sm">
             "The best way to predict the future is to create it."
           </p>

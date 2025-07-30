@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Button } from '@/components/ui/button';
-import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
+import {  ArrowDown } from 'lucide-react';
 import { useSmoothScroll } from '@/hooks/useSmoothScroll';
 import profilePic from '../assets/profile.jpg';
 

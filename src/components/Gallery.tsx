@@ -9,11 +9,13 @@ import {
 import spiderman from "../assets/spiderman.jpg"
 import sonic from "../assets/sonic.jpg"
 import gojo from "../assets/gojo.jpg"
+import a1 from "../assets/A-1.jpg"
+import a2 from "../assets/A-2.jpg"
 const Gallery = () => {
   const images = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      src: a1,
       alt: "Project Screenshot 1",
       title: "Dashboard Design"
     },
@@ -37,7 +39,7 @@ const Gallery = () => {
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=600&h=400&fit=crop",
+      src: a2,
       alt: "Project Screenshot 5",
       title: "API Documentation"
     },
